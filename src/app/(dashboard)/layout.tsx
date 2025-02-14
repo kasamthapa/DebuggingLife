@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function DashboardLayout({
-  children, 
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -17,7 +17,7 @@ export default function DashboardLayout({
           className="flex items-center justify-center lg:justify-start gap-2"
         >
           <Image src="/logo.png" alt="logo" width={32} height={32} />
-          <span className="hidden lg:block font-bold">KMC Connect</span>
+          <span className="hidden lg:block font-bold">SchooLama</span>
         </Link>
         <Menu />
       </div>
