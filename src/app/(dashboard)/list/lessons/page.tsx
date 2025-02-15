@@ -141,4 +141,4 @@ const renderRow = (item: LessonList) => (
   );
 };
 
-export default LessonListPage; 
+export default LessonListPage;

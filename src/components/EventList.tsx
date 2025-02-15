@@ -1,4 +1,3 @@
-import React from "react"; 
 import prisma from "@/lib/prisma";
 
 const EventList = async ({ dateParam }: { dateParam: string | undefined }) => {
